@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+html {
+    color: white;
+    background-color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+div.navigation{
+    /* Gradient from W3c Schools */
+    background: -webkit-linear-gradient(#23074d, #cc5333); /* Safari */
+    background: -o-linear-gradient(#23074d, #cc5333); /* Opera */
+    background: -moz-linear-gradient(#23074d, #cc5333); /* Firefox */
+    background: linear-gradient(#23074d, #cc5333); /* Standard syntax */
+    padding: 10;
+    text-align: center;
+    font-size: 23px;
+}
+
+.heading_hw{
+    border: 5px solid #434343;
+    border-radius: 25px;
+    background-color: #FF6800;
+    text-align: center;
+    font-size: 26px;
+    font-family: Oswald, sans-serif;
+    font-weight: bold;
+    margin: 10px; 
+}
+
+.welcome_p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+footer {
+    text-align: center;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Oswald';
+    width: 800px;
+    height: 250px; 	
+    margin: 0 auto;
+}
+    .text-copy{
+        fill: none;
+        stroke: white;
+        stroke-dasharray: 6% 29%;
+        stroke-width: 5px;
+        stroke-dashoffset: 0%;
+        animation: stroke-offset 5s infinite linear;
+    }
+
+    .text-copy:nth-child(1) {
+        stroke: #4B0082;
+        animation-delay: -1s;
+    }
+    .text-copy:nth-child(2) {
+        stroke: #9400D3;
+        animation-delay: -2s
+    }
+    .text-copy:nth-child(3) {
+        stroke: rgb(9, 87, 200);
+        animation-delay: -3s;
+    }
+    .text-copy:nth-child(4) {
+        stroke: #003366;
+        animation-delay: -4s;
+    }
+    .text-copy:nth-child(5) {
+        stroke: #0005FF;
+        animation-delay: -5s;
+    }
+    @keyframes stroke-offset {
+        100% { Stroke-dashoffset: -35%;}
+    }

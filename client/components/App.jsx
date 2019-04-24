@@ -1,17 +1,14 @@
 import React from 'react'
 
-import Body from './Body'
-import NavBar from './Navbar'
-import Header from './Header'
-import Background from "./Background";
+import Home from './Home'
+// import HomeBody from './HomeBody';
 
 const App = () => {
   return (
     <React.Fragment>
-      <Header />
-      <NavBar />
-      <Body />
-      <Background />
+      Hello
+      <Home />
+      {/* <HomeBody />  */}
     </React.Fragment>
   )
 }
