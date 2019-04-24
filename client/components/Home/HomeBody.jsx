@@ -1,7 +1,21 @@
 import React from'react'
 
-const HomeBody = () => {
-      <React.Component>
+class HomeBody extends React.Component {
+  constructor (props) {
+    super (props) 
+    this.state = {
+      clickStyle: {
+        color: 'khaki'
+        },
+      fontStyle: {
+        fontSize: '24px'
+      }
+    }
+  }
+
+  render () {
+    return (
+      <React.Fragment>
         <div className="main" >
 
             <div className="heading_hw">
@@ -16,13 +30,13 @@ const HomeBody = () => {
               This is still a Work In Process
             </p>
           
-            <div className="heading_hw" style="font-size:24px;">
+            <div className="heading_hw" style={this.state.fontStyle}>
               What are the best practices associated with using classes vs. ids?
             </div>
 
             <p className="welcome_p">
               This blog will show the best practices associated with using classes vs. ids.<br /><br />
-              Click <a href="blog/sprint2-technical.html" style="color:khaki;">Here</a> to view the blog post.
+              Click <a href="#"{/*"blog/sprint2-technical.html"*/...React} style={this.state.clickStyle}>Here</a> to view the blog post.
             </p>
           
           <div className="heading_hw">
@@ -45,8 +59,10 @@ const HomeBody = () => {
           </p>
 
         </div>
-      </React.Component>      
+      </React.Fragment>      
+  )
+    }
 }
 
 
-export default HomeBody;
+export default HomeBody

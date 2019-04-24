@@ -1,14 +1,13 @@
 import React from 'react'
 
-import Home from './Home'
-// import HomeBody from './HomeBody';
+import Home from './Home/Home'
+import Footer from './Footer/Footer'
 
 const App = () => {
   return (
     <React.Fragment>
-      Hello
       <Home />
-      {/* <HomeBody />  */}
+      <Footer />
     </React.Fragment>
   )
 }
