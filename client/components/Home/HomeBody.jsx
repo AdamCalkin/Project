@@ -23,7 +23,7 @@ class HomeBody extends React.Component {
             </div>
 
             <p className="welcome_p"> 
-              This is the beginning of my <a href="#"{/*href="blog/blog.html"*/...React}>Blog</a> website home page.
+              This is the beginning of my <a href="#">Blog</a> website home page.
             </p>
             
             <p className="welcome_p"> 
@@ -36,7 +36,7 @@ class HomeBody extends React.Component {
 
             <p className="welcome_p">
               This blog will show the best practices associated with using classes vs. ids.<br /><br />
-              Click <a href="#"{/*"blog/sprint2-technical.html"*/...React} style={this.state.clickStyle}>Here</a> to view the blog post.
+              Click <a href="#" style={this.state.clickStyle}>Here</a> to view the blog post.
             </p>
           
           <div className="heading_hw">
@@ -44,7 +44,7 @@ class HomeBody extends React.Component {
           </div>
 
           <p className="welcome_p">
-            I will be showcasing my reflection notes from sprint 1,<br /> this will shown at the bottom of my <a href="blog/blog.html">Blog</a> page.
+            I will be showcasing my reflection notes from sprint 1,<br /> this will shown at the bottom of my <a href="#">Blog</a> page.
           </p>
 
           <div className="heading_hw">
@@ -55,7 +55,7 @@ class HomeBody extends React.Component {
             My name is Adam Calkin, I grew up on the Kapiti Coast and have lived there for most of my life.<br /> I moved into wellington though to be able to do this course. 
             <br />
             <br />
-            You can find more info about me at the page <a href="about.html">About Me</a>.
+            You can find more info about me at the page <a href="#">About Me</a>.
           </p>
 
         </div>
